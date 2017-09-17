@@ -1,0 +1,54 @@
+ul
+{
+    list-style-type: none;
+    padding: 5px;
+}
+
+div ul li {
+    /* margin: 5px; */
+    margin-left: 0px;
+    padding: 0px;
+}    
+
+.div-container {
+    position: relative;
+}
+
+.div-container .popup-contents {
+    position: absolute;
+    background-color: rgba(123, 123,123, 0.2);
+    min-width: 300px;
+}
+
+.item-suggest {
+    border-bottom: 1px solid rgba(123, 123,123, 0.8);
+}
+
+.item-suggest div {
+    padding: 5px;
+}
+
+.item-suggest img {
+    vertical-align: middle;
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+.item-suggest p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+.item-suggest:last-child {
+    border-bottom: none;
+}
+
+.item-suggest:hover, .selected {
+    background-color: rgba(123, 123,123, 0.5);
+}
+
+#input-service-name {
+    min-width: 300px;
+}
